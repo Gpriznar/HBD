@@ -12,7 +12,7 @@ class Birthday extends Component {
     }
   }
 
-//Event Handleers
+//Event Handlers
 
 
   handleNo = () => {
