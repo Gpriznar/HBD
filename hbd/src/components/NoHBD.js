@@ -4,7 +4,7 @@ class NoHBD extends Component {
 
   render() {
 
-let noHBDMessage = ['Message 1', 'Message 2', 'Message 3', 'Message 4', 'Message 5', 'Message 6']
+let noHBDMessage = ['Message 1', 'Message 2', 'Message 3', 'Message 4', 'Message 5', 'Message 6', 'Message 7']
 let randomIndex = Math.floor(Math.random() * noHBDMessage.length)
 let randomNoHBDMessage = noHBDMessage[randomIndex]
 
