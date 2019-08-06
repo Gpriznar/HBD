@@ -34,56 +34,56 @@ class Birthday extends Component {
 
 //Component
 
-  handleSetMonth = () => {
+  componentDidMount = () => {
       let today = this.state.today
-      let month = (today.getUTCMonth() + 1).toString()
+      let monthNumber = (today.getUTCMonth() + 1).toString()
       console.log(this.state.month)
-      console.log(month)
-      if(month === 1) {
+      console.log(monthNumber)
+      if(monthNumber === '1') {
         this.setState({
           month: "Janurary"
         })
-      } else if (month === 2){
+      } else if (monthNumber === '2'){
         this.setState({
           month: "Feburary"
         })
-      } else if (month === 3) {
+      } else if (monthNumber === '3') {
         this.setState({
           month: "March"
         })
-      } else if (month === 4) {
+      } else if (monthNumber === '4') {
         this.setState({
           month: "April"
         })
-      } else if (month === 5){
+      } else if (monthNumber === '5'){
         this.setState({
           month: "May"
         })
-      } else if (month === 6){
+      } else if (monthNumber === '6'){
         this.setState({
           month: "June"
         })
-      } else if (month === 7){
+      } else if (monthNumber === '7'){
         this.setState({
           month: "July"
         })
-      } else if (month === 8){
+      } else if (monthNumber === '8'){
         this.setState({
           month: "August"
         })
-      } else if (month === 9){
+      } else if (monthNumber === '9'){
         this.setState({
           month: "September"
         })
-      } else if (month === 10){
+      } else if (monthNumber === '10'){
         this.setState({
           month: "October"
         })
-      } else if (month === 11){
+      } else if (monthNumber === '11'){
         this.setState({
           month: "November"
         })
-      } else if (month === 12){
+      } else if (monthNumber  === '12'){
         this.setState({
           month: "December"
         })
@@ -111,7 +111,6 @@ if(this.state.isItYourBirthday === 0) {
       <div className="HBDButtons">
       <button onClick={this.handleYes}> Yes! </button>
       <button onClick={this.handleNo} > No! </button>
-      <button onClick={this.handleSetMonth} > Month </button>
       </div>
       </div>
     )
