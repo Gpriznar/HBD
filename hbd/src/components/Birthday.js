@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import NoHBD from './NoHBD';
 import YesHBD from './YesHBD';
-
+import "./Birthday.css"
 
 
 class Birthday extends Component {
@@ -102,12 +102,12 @@ class Birthday extends Component {
 
 if(this.state.isItYourBirthday === 0) {
   let today = this.state.today
-  let day = (today.getUTCDate().toString())
+  let day = (today.getDate().toString())
   let month = this.state.month
   let year = (today.getFullYear().toString())
     body = (
       <div>
-      <h1> Is {month} {day}, {year} your birthday? </h1>
+      <h1 className ="HBDTitle"> Is {month} {day}, {year} your birthday? </h1>
       <div className="HBDButtons">
       <button onClick={this.handleYes}> Yes! </button>
       <button onClick={this.handleNo} > No! </button>
