@@ -9,7 +9,9 @@ let randomIndex = Math.floor(Math.random() * noHBDMessage.length)
 let randomNoHBDMessage = noHBDMessage[randomIndex]
 
   return (
+    <div className="message">
     <h1> {randomNoHBDMessage} </h1>
+    </div>
   );
  }
 }
