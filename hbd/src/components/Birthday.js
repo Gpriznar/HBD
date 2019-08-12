@@ -109,8 +109,8 @@ if(this.state.isItYourBirthday === 0) {
       <div>
       <h1 className ="HBDTitle"> Is {month} {day}, {year} your birthday? </h1>
       <div className="HBDButtons">
-      <button onClick={this.handleYes}> Yes! </button>
-      <button onClick={this.handleNo} > No! </button>
+      <button className ="yes" onClick={this.handleYes}> Yes! </button>
+      <button className ="no" onClick={this.handleNo} > No! </button>
       </div>
       </div>
     )

@@ -9,7 +9,9 @@ class YesHBD extends Component {
   let randomYesHBDMessage = yesHBDMessage[randomIndex]
 
     return (
+      <div className="message">
       <h1> {randomYesHBDMessage} </h1>
+      </div>
   );
  }
 }

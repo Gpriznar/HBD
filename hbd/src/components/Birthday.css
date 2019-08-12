@@ -1,5 +1,37 @@
+button:focus {
+  outline:none
+}
+
 .HBDTitle {
   text-align: center;
-  margin-top: 20%;
-  font-size: 36px;  
+  color: #30302E;
+  margin-top: 25%;
+  font-size: 50px;
+}
+
+.message {
+  font-size: 25px;
+}
+
+button {
+  padding: 0;
+  border: 6px solid #3A5969;
+  background: #3A5969;
+  margin: 40px;
+  font-size: 45px;
+  color: #f2f3eb;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #92D6D6;
+  border-color: #92D6D6;
+}
+
+.yes {
+  padding: 5px;
+}
+
+.no {
+  padding: 5px 15px;
 }
