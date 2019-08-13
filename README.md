@@ -1,4 +1,8 @@
 # HBD
-HBD is a satirical React based SPA that might be the most insincere way to say "Happy Birthday"
+HBD is a React based SPA that helps idenfity if it's your birthday. 
 
-More details soon...
+This project was created to help practice skills with React (React Hooks) and CSS/Styling. 
+
+Live Link: http://happyday.surge.sh/
+
+Contributors: Summer Feiler
